@@ -58,7 +58,44 @@ def run_parallel(data, users):
 
 # Result & Performance Analysis
 ## Expected Output
-
+```ssh
+==================================================
+SIMPLE PARALLEL MUSIC RECOMMENDER
+==================================================
+Generating 10,000 listening records...
+Generated 10000 records for 1000 users and 500 songs
+Generating recommendations for 10 users...
+ 
+>SEQUENTIAL< Processing...
+Completed in 11.64 seconds
+ 
+>CONCURRENT - Threading< Processing...
+Completed in 12.07 seconds
+ 
+>PARALLEL - Multiprocessing< Processing...
+Completed in 5.58 seconds
+ 
+==================================================
+PERFORMANCE COMPARISON
+==================================================
+Method                    Time (seconds)  Speedup   
+--------------------------------------------------
+Sequential                11.64           1.00x     
+Concurrent (Threads)      12.07           0.96      x
+Parallel (Processes)      5.58            2.09      x
+ 
+==================================================
+SAMPLE RECOMMENDATIONS (Parallel Method)
+==================================================
+ 
+User 2: Recommended songs [443, 5, 401]
+ 
+User 444: Recommended songs [323, 7, 206]
+ 
+User 383: Recommended songs [373, 32, 271]
+ 
+Program complete! Parallel processing is fastest for CPU-intensive tasks.
+```
 
 ## Summary 
 * For CPU-intensive activities, parallel processing (multiprocessing) works best, achieving a speedup of about three times.
