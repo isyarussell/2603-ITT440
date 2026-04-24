@@ -73,16 +73,16 @@ sudo apt install python3 -y
 
 Step 4: Create Project Folder
 ```bash  
-mkdir parallel-dice-simulator
-cd parallel-dice-simulator
+mkdir parallel-dice-simulator-
+cd parallel-dice-simulator-
 ```
 Step 5: Create Python File
 ```bash  
-nano main.py
+nano main-dice.py
 ```
 Step 6: Paste Your Code
 Copy your Python code
-Paste into main.py
+Paste into main-dice.py
 Save:
 
 In nano:
@@ -263,11 +263,7 @@ Sample Input
 
 Sample Output
 
-<img width="366" height="329" alt="Screenshot 2026-04-23 213316" src="https://github.com/user-attachments/assets/480bbd49-a34a-4a3b-862d-1ff42b2cb0e7" />
 
-<img width="329" height="333" alt="Screenshot 2026-04-23 213329" src="https://github.com/user-attachments/assets/64bb94d4-5bdc-4d60-a6b7-7a44cbf02369" />
-
-<img width="352" height="334" alt="image" src="https://github.com/user-attachments/assets/620cdfdd-736d-4a23-ac51-bb8561b8e662" />
 
 
 -----------------------
