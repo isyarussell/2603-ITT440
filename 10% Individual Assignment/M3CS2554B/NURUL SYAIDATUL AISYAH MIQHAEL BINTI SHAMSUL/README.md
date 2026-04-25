@@ -154,7 +154,7 @@ The system is implemented in Python and includes:
 
 The results show that parallel programming is the most efficient approach for processing large datasets.
 
-Sequential execution required over 148 seconds, while the parallel method reduced execution time to approximately 33 seconds by using all available CPU cores.
+Sequential execution required over 136 seconds, while the parallel method reduced execution time to approximately 28 seconds by using all available CPU cores.
 
 Although threading improves system responsiveness, it does not significantly improve performance for heavy calculations due to Python’s GIL. Therefore, multiprocessing is the most suitable method to achieve better performance when handling large amounts of data.
 
