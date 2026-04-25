@@ -66,7 +66,11 @@ This section presents the actual system outputs generated during the password ha
 ### 6.1 Console Performance Report
 The following screenshot captures the primary console output summarizing the final results of the performance benchmark for processing 10,000,000 raw passwords.
 
-*(Insert your screenshot of the terminal here)* **Figure 1.0:** Console output of the final performance report.
+<p align="center">
+  <img src="terminal.png" alt="Output for the program" />
+  <br>
+  <b>Figure 1.0:</b> Console output of the final performance report.
+</p>
 
 This screen details three distinct tests, providing exact configurations and execution times:
 * **TEST A (Pure Sequential):** 1 Core, 1 File – Completed in 20.84 seconds.
