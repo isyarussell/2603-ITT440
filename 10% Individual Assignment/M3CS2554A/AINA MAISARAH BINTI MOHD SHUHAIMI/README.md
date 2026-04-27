@@ -65,9 +65,6 @@ phyton ITT440.py
 | Master | 50,000,000      |
 
 
-## Code
-
-
 ## Sample Input
 
 
