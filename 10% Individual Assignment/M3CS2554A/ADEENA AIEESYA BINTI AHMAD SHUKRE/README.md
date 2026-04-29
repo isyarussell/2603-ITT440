@@ -111,7 +111,8 @@ Threading       : 179.4243s
 Multiprocessing : 59.3737s
 Fastest Method  : Multiprocessing
 ```
-<img width="1919" height="941" alt="Screenshot 2026-04-30 034616" src="https://github.com/user-attachments/assets/1340fc36-b527-41e8-a769-61efc9de2dfe" />
+<img width="625" height="540" alt="ANALYTICsss" src="https://github.com/user-attachments/assets/b794708e-7700-4065-b8bd-2b7042b07f96" />
+
 
 
 ## ANALYTIC
