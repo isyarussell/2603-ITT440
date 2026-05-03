@@ -231,19 +231,8 @@ Performance Comparison:
 
 ## Screenshots
 
-Add visual screenshots to the repository under a `screenshots/` folder.
-
-Recommended screenshot files:
-
-- `screenshots/single_game_input.png`
-- `screenshots/single_game_output.png`
-- `screenshots/simulation_run.png`
-- `screenshots/performance_report.png`
-
-Embed images in GitHub markdown like this:
-
 ```markdown
-![Single Game Output](screenshots/single_game_output.png)
+![Single Game Output](Screenshots/single_game_output.png)
 ```
 
 ## Source Code
